@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif; /* Fuente de letra más legible */
+    background-color: #f8f9fa; /* Color de fondo suave */
+}
+
+.container {
+    margin-top: 20px; /* Espacio superior para el contenido */
+}
+
+h1, h4 {
+    color: #343a40; /* Color de texto más oscuro para los encabezados */
+}
+
+hr {
+    border-top: 1px solid #dee2e6; /* Línea separadora más sutil */
+}
+.table {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para la tabla */
+}
+
+.table th {
+    background-color: #f2f2f2; /* Color de fondo claro para las celdas de encabezado */
+    font-weight: bold;
+}
+
+.table td {
+    vertical-align: middle; /* Alineación vertical centrada para el texto en las celdas */
+}
+.card {
+    border: none; /* Elimina el borde de la card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para las cards */
+    transition: transform 0.2s; /* Transición suave al pasar el mouse */
+}
+
+.card:hover {
+    transform: scale(1.02); /* Escala ligeramente la card al pasar el mouse */
+}
+
+
+
+.card-title {
+    font-weight: bold;
+}
+
+.btn-dark {
+    background-color: #343a40; /* Color de fondo oscuro para el botón */
+    border-color: #343a40;
+}
+
+.btn-dark:hover {
+    background-color: #23272b; /* Color de fondo más oscuro al pasar el mouse */
+    border-color: #23272b;
+}
